@@ -857,13 +857,17 @@ section * {
  * */
 .header-10 {
   z-index: 100;
-  width: 100%;
   padding-top: 0;
   padding-bottom: 0;
   height: 80px;
   background: #233240;
   color: white;
+  width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
 }
+
 .header-10 .navbar {
   position: absolute;
   z-index: 2;
