@@ -851,21 +851,22 @@ section * {
   color: #7f8c8d;
   background-color: white;
 }
-/* header */
+
 /**
  * Header 10 stylesheet  
  * */
 .header-10 {
-  z-index: 100;
   padding-top: 0;
   padding-bottom: 0;
-  height: 80px;
+  height: 50px;
   background: #233240;
   color: white;
   width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
 	left: 0; /* Posicionamos la cabecera al lado izquierdo */
 	top: 0; /* Posicionamos la cabecera pegada arriba */
 	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+  width: 100%;
+  z-index: 100;
 }
 
 .header-10 .navbar {
@@ -875,7 +876,7 @@ section * {
   margin: 0;
 }
 .header-10 .navbar .brand {
-  padding-top: 25px;
+  padding-top: 15px;
   font-size: 25px;
   font-weight: normal;
   color: #ffffff;
@@ -893,7 +894,7 @@ section * {
   margin-left: 0;
 }
 .header-10 .navbar .nav > li > a {
-  padding: 29px 0 27px;
+  padding: 15px 0 27px;
   font-size: 17px;
   font-weight: normal;
   color: #7f8c8d;
@@ -914,7 +915,7 @@ section * {
   color: #bdc3c7;
 }
 .header-10 .navbar .navbar-form {
-  padding: 19px 0 19px 60px;
+  padding: 5px 0 19px 60px;
 }
 .header-10 .navbar .btn {
   padding-left: 26px;
